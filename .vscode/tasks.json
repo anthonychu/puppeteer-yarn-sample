@@ -6,18 +6,12 @@
 			"command": "host start",
 			"problemMatcher": "$func-watch",
 			"isBackground": true,
-			"dependsOn": "npm install"
+			"dependsOn": "yarn install"
 		},
 		{
 			"type": "shell",
-			"label": "npm install",
-			"command": "npm install"
-		},
-		{
-			"type": "shell",
-			"label": "npm prune",
-			"command": "npm prune --production",
-			"problemMatcher": []
+			"label": "yarn install",
+			"command": "yarn install"
 		}
 	]
 }
